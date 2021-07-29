@@ -1,0 +1,33 @@
+
+1. Create Spring boot starter project
+2. add starter (spring web,spring data JPA,mysql driver, devtool(optional),lombok api
+      (optional))
+      
+ 3)Create package entity,reposirty,service and controller (Layered appllication)
+ 4) this rest api application @RestController
+ 
+ perform below operation using postman
+ 
+ 1. Add new Record (post) url: http://localhost:8080/product
+ {
+     "productName":"Mobile i5",
+	 "projectDescription":"MOBILE CATEGOTY",
+	"price":6786.0
+	
+}
+
+
+2. Retrive all Record (get) url: http://localhost:8080/product
+
+3. Update  Record (put ) url: http://localhost:8080/product/1
+
+{
+    "productName":"Laptop",
+	 "projectDescription":"Lenovo lappay",
+	 "price":55500.00
+}
+
+
+4. delete  Record (delete ) url: http://localhost:8080/product/1
+
+5. Retrive single record url : http://localhost:8080/product/1
